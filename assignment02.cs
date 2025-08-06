@@ -4,6 +4,7 @@ namespace assignment02
 {
     public class Game
     {
+        // run/test
         public static void Main(string[] args)
         {
             Game game1 = new Game(1234, "Minecraft", 59.99m, 4.7, 15);
@@ -20,7 +21,7 @@ namespace assignment02
             // total games created
             Console.WriteLine($"Total games created: {Game.GetTotalGamesCreated()}");
         }
-
+        // actual code and stuff
         // Static field to track total games created
         private static int totalGames = 0;
 
@@ -112,3 +113,4 @@ namespace assignment02
         }
     }
 }
+
